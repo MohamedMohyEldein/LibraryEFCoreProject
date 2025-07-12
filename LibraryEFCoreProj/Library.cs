@@ -85,7 +85,7 @@ namespace LibraryEFCoreProj
                 FirstCall = false;
             }
 
-            var query = context.Books.Join(overDueBooks, q1 => q1.BookId, q2 => q2.BookId, (q1, q2) => q1).Skip((page - 1) * pageSize).Take(pageSize);
+            var query = context.Books.Join(overDueBooks, q1 => q1.BookId, q2 => q2.BookId, (q1, q2) => q1).Skip((page - 1) * pageSize).Take(pageSize).ToList();
             Console.Clear();
             foreach (var item in query)
             {
@@ -422,7 +422,7 @@ namespace LibraryEFCoreProj
         public static void ListAllBooks(AppDBContext context, bool FirstCall, int page = 1)
         {
             int pageSize = 10;
-            var query = context.Books.AsNoTracking().Skip((page - 1) * pageSize).Take(pageSize);
+            var query = context.Books.AsNoTracking().Skip((page - 1) * pageSize).Take(pageSize).ToList();
 
             if (FirstCall)
             {
