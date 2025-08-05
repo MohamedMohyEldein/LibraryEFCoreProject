@@ -67,31 +67,41 @@ namespace LibraryEFCoreProj
 
             }
         }
-
-        public static void ListOverdueBooks(AppDBContext context, bool FirstCall, int page = 1)
+        public static void ListOverdueBooks(AppDBContext context, bool FirstCall, int totalPages, int page = 1)
         {
             int pageSize = 10;
 
-            var overDueBooks = context.Borrowings.AsNoTracking().Where(q => q.ReturnDate == null && q.BorrowDate < DateTime.Now.AddDays(-14));
+            IEnumerable<Borrowing> query = new List<Borrowing>();
+            Task queryTask = new Task(() => query = context.Borrowings
+                .Include(b => b.Book)
+                .AsNoTracking()
+                .Where(q => q.ReturnDate == null && q.BorrowDate < DateTime.Now.AddDays(-14))
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize).ToList());
 
-            int totalPages = (int)Math.Ceiling((double)overDueBooks.Count() / pageSize);
+            queryTask.Start();
 
             if (FirstCall)
             {
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine("\nListing all overdue books....");
                 Console.ForegroundColor = ConsoleColor.White;
-                Thread.Sleep(2000);
+                Thread.Sleep(1500);
+                queryTask.Wait();
+                totalPages = (int)Math.Ceiling((double)context.Borrowings.AsNoTracking()
+                    .Where(q => q.ReturnDate == null && q.BorrowDate < DateTime.Now.AddDays(-14))
+                    .Count() / pageSize);
                 FirstCall = false;
             }
-
-            var query = context.Books.Join(overDueBooks, q1 => q1.BookId, q2 => q2.BookId, (q1, q2) => q1).Skip((page - 1) * pageSize).Take(pageSize).ToList();
+            queryTask.Wait();
             Console.Clear();
             foreach (var item in query)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(item.Book);
             }
+
             Console.WriteLine();
+
             for (int i = 1; i <= totalPages; i++)
             {
                 if (i == page) Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -112,18 +122,17 @@ namespace LibraryEFCoreProj
                 }
                 else if (k.Key == ConsoleKey.LeftArrow && page > 1)
                 {
-                    ListOverdueBooks(context, false, page - 1);
+                    ListOverdueBooks(context, false, totalPages, page - 1);
                     break;
                 }
                 else if (k.Key == ConsoleKey.RightArrow && page < totalPages)
                 {
-                    ListOverdueBooks(context, false, page + 1);
+                    ListOverdueBooks(context, false, totalPages, page + 1);
                     break;
                 }
 
             }
         }
-
         public static void AddBook(AppDBContext context)
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -229,7 +238,6 @@ namespace LibraryEFCoreProj
 
 
         }
-
         public static void BorrowBook(AppDBContext context)
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -299,7 +307,6 @@ namespace LibraryEFCoreProj
             MainMenu(context);
 
         }
-
         public static void DeleteBook(AppDBContext context)
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -314,7 +321,7 @@ namespace LibraryEFCoreProj
                 try
                 {
                     int.TryParse(Console.ReadLine(), out id);
-                    var query = context.Books.Single(q => q.BookId == id);
+                    var query = context.Books.Find(id);
                     context.Books.Remove(query);
                     context.SaveChanges();
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -334,7 +341,6 @@ namespace LibraryEFCoreProj
             }
 
         }
-
         public static void UpdateBook(AppDBContext context)
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -390,15 +396,13 @@ namespace LibraryEFCoreProj
                 try
                 {
                     string authorName = Console.ReadLine();
-                    var query = context.Authors.Single(q => q.Name == authorName);
+                    var query = context.Authors.First(q => q.Name == authorName);
                     int authorId = query.AuthorId;
 
                     var result = context.Books.Single(q => q.BookId == id);
                     result.Title = title;
                     result.PublicationYear = publicationYear;
                     result.AuthorId = authorId;
-
-                    context.Books.Update(result);
                     context.SaveChanges();
 
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -418,27 +422,32 @@ namespace LibraryEFCoreProj
 
 
         }
-
-        public static void ListAllBooks(AppDBContext context, bool FirstCall, int page = 1)
+        public static void ListAllBooks(AppDBContext context, bool FirstCall, int totalPages, int page = 1)
         {
             int pageSize = 10;
-            var query = context.Books.AsNoTracking().Skip((page - 1) * pageSize).Take(pageSize).ToList();
 
+            //var query = context.Books.AsNoTracking().Skip((page - 1) * pageSize).Take(pageSize).ToList();
+            IEnumerable<Book> query = new List<Book>();
+
+            Task queryTask = new Task(() => query = context.Books.AsNoTracking().Skip((page - 1) * pageSize).Take(pageSize).ToList());
+            queryTask.Start();
             if (FirstCall)
             {
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine("\nListing all books....");
                 Console.ForegroundColor = ConsoleColor.White;
-                Thread.Sleep(2000);
+                Thread.Sleep(1500);
+                queryTask.Wait();
+                totalPages = (int)Math.Ceiling((double)context.Books.AsNoTracking().Count() / pageSize);
                 FirstCall = false;
             }
+            queryTask.Wait();
 
             Console.Clear();
             foreach (var item in query)
             {
                 Console.WriteLine(item);
             }
-            int totalPages = (int)Math.Ceiling((double)context.Books.AsNoTracking().Count() / pageSize);
             Console.WriteLine();
             for (int i = 1; i <= totalPages; i++)
             {
@@ -460,12 +469,12 @@ namespace LibraryEFCoreProj
                 }
                 else if (k.Key == ConsoleKey.LeftArrow && page > 1)
                 {
-                    ListAllBooks(context, false, page - 1);
+                    ListAllBooks(context, false, totalPages, page - 1);
                     break;
                 }
                 else if (k.Key == ConsoleKey.RightArrow && page < totalPages)
                 {
-                    ListAllBooks(context, false, page + 1);
+                    ListAllBooks(context, false, totalPages, page + 1);
                     break;
                 }
             }

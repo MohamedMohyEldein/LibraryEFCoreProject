@@ -1,6 +1,7 @@
 ﻿using LibraryEFCoreProj.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace LibraryEFCoreProj.LibraryContext
 {
@@ -16,6 +17,7 @@ namespace LibraryEFCoreProj.LibraryContext
             var configuration = new ConfigurationBuilder().AddJsonFile("D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\AppSettings.json").Build();
             var connectionString = configuration.GetSection("ConnectionString").Value;
             optionsBuilder.UseSqlServer(connectionString);
+            //optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

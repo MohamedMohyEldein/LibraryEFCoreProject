@@ -7,44 +7,12 @@
       "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\models\\borrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\models\\borrower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\librarycontext\\configuration\\borrowingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\librarycontext\\configuration\\borrowingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\librarycontext\\configuration\\borrowerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\librarycontext\\configuration\\borrowerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\librarycontext\\configuration\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\librarycontext\\configuration\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\librarycontext\\configuration\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\librarycontext\\configuration\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\librarycontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\librarycontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\models\\borrowing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|d:\\c# programs\\libraryefcoresol\\libraryefcoreproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE859577-B78F-43B7-835E-2CE2B55F0325}|LibraryEFCoreProj\\LibraryEFCoreProj.csproj|solutionrelative:libraryefcoreproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -72,110 +40,26 @@
               "RelativeDocumentMoniker": "LibraryEFCoreProj\\Library.cs",
               "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Library.cs",
               "RelativeToolTip": "LibraryEFCoreProj\\Library.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:48:10.307Z",
+              "WhenOpened": "2025-07-12T17:16:38.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Borrower.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Borrower.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\Models\\Borrower.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Borrower.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\Models\\Borrower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:39:24.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\Models\\Book.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Book.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\Models\\Book.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:39:17.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Author.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\Models\\Author.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Author.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\Models\\Author.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:39:15.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BorrowingConfiguration.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowingConfiguration.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowingConfiguration.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowingConfiguration.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowingConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:38:58.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BorrowerConfiguration.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowerConfiguration.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowerConfiguration.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowerConfiguration.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\LibraryContext\\Configuration\\BorrowerConfiguration.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:38:56.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookConfiguration.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\BookConfiguration.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\LibraryContext\\Configuration\\BookConfiguration.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\BookConfiguration.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\LibraryContext\\Configuration\\BookConfiguration.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:38:54.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthorConfiguration.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\AuthorConfiguration.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\LibraryContext\\Configuration\\AuthorConfiguration.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\Configuration\\AuthorConfiguration.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\LibraryContext\\Configuration\\AuthorConfiguration.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:38:52.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\AppDBContext.cs",
               "RelativeDocumentMoniker": "LibraryEFCoreProj\\LibraryContext\\AppDBContext.cs",
               "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\LibraryContext\\AppDBContext.cs",
               "RelativeToolTip": "LibraryEFCoreProj\\LibraryContext\\AppDBContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-11T02:58:05.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Program.cs",
               "RelativeDocumentMoniker": "LibraryEFCoreProj\\Program.cs",
@@ -183,20 +67,7 @@
               "RelativeToolTip": "LibraryEFCoreProj\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:51:06.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Borrowing.cs",
-              "DocumentMoniker": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Borrowing.cs",
-              "RelativeDocumentMoniker": "LibraryEFCoreProj\\Models\\Borrowing.cs",
-              "ToolTip": "D:\\C# Programs\\LibraryEFCoreSol\\LibraryEFCoreProj\\Models\\Borrowing.cs",
-              "RelativeToolTip": "LibraryEFCoreProj\\Models\\Borrowing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T11:39:26.62Z"
+              "WhenOpened": "2025-07-10T05:51:06.716Z"
             }
           ]
         }
