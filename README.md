@@ -1,4 +1,4 @@
-📚 Library Management System (EF Core)
+# 📚 Library Management System (EF Core)
 
 A console-based Library Management System built with C#, Entity Framework Core, and LINQ.
 The application demonstrates CRUD operations, relationships, pagination, and basic business logic using EF Core in a clean, structured way.
